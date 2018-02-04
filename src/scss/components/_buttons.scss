@@ -1,0 +1,35 @@
+.btn {
+  background-color: var(--button-bg);
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  transition: background-color .5s;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.btn:hover {
+  background-color: var(--button-hover-bg)
+}
+
+.btn--small {
+  padding: 5px 10px;
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+.btn--secondary {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color-soft);
+}
+
+.btn--icon {
+  padding: .75em 1em .75em 2.5em;
+  position: relative;
+}
+
+.btn--secondary:hover {
+  background-color: rgba(0,0,0,0.05);
+}
