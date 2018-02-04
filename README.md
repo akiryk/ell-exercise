@@ -1,11 +1,13 @@
 # Ell Exercise
 
-I build this prototype to explore how a design works in the browser. Some sections are populated with dummy text; others use images in place of actual text content.
+I built this prototype to explore how a design works in the browser. Some sections are populated with dummy text; others use images in place of actual text content.
 
 ## To see it in action:
 * Use Chrome or Safari, this isn't tested on FF, IE, or Edge.
 * See working example on [GitHub pages](https://akiryk.github.io/ell-exercise/index.html)
-* It's only somewhat responsive — doesn't break at small screen sizes but not designed for small screens yet point.
+* Tabs work, although most aren't populated with real content.
+* Buttons under the Support Levels section in sidebar work, in that they toggle lists of students into view.
+* The site is somewhat responsive, meaning it doesn't break at small screen sizes. A lot more thought would need to go into deciding how to handle content on small viewports.
 
 ## To download and run locally:
 1. `cd your/local/directory`
