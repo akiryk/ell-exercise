@@ -1,0 +1,32 @@
+.list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: .5em 0;
+}
+
+.list--icons {
+
+  padding-left: 2ch;
+
+  &>li {
+    text-indent: 2.5ch;
+  }
+  &>li>svg {
+    margin-left: -2.5rem;
+    margin-right: .5rem;
+  }
+}
+
+.list--spaced {
+  &>li {
+    margin-bottom: 1em;
+  }
+}
+
+.list--aligned-left {
+  padding-left: 1em;
+}
+
+ol.list {
+  list-style-type: decimal;
+}

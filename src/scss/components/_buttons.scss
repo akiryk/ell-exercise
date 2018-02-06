@@ -5,12 +5,18 @@
   border: none;
   border-radius: 6px;
   transition: background-color .5s;
+  padding: .75em 1em;
+  font-size: 0.875rem;
   appearance: none;
   -webkit-appearance: none;
 }
 
 .btn:hover {
   background-color: var(--button-hover-bg)
+}
+
+.btn--inline {
+  margin-right: 1rem;
 }
 
 .btn--small {

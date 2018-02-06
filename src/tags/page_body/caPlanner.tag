@@ -16,12 +16,12 @@
       {
         id: 1,
         title: "Activity Plan",
-        image: 'planner-activity.jpg',
+        content: 'content/activity.html',
       },
       {
         id: 2,
         title: "Examples",
-        image: 'planner-examples.jpg'
+        content: 'content/examples.html',
       }
     ];
 
@@ -51,8 +51,14 @@
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 2rem;
     }
+
+    /* Loaded content styles*/
+
     .planner-content {
       grid-column: 1/3;
+    }
+    .planner-content--full {
+      grid-column: 1/4;
     }
     .planner-sidebar {
       grid-column: 3/4;
@@ -60,7 +66,27 @@
     .planner-headings {
       margin-top: 0;
     }
-    .fa-bullhorn {
+    .button-row {
+      margin-bottom: 1rem;
+    }
+    .quiet-text {
+      color: #777;
+      font-size: 1rem;
+    }
+    .callout-side {
+      background: var(--bg-gray);
+      padding: 1rem;
+      border: 1px solid var(--border-color);
+      margin-bottom: 1rem;
+    }
+    .callout-full {
+      display: flex;
+      background: var(--bg-gray);
+      margin:1rem -1.25rem;
+      padding: 0 1.25rem;
+    }
+    /*icons*/
+     .fa-bullhorn {
       float: left;
       border-radius: 6px;
       margin-right: .5rem;
@@ -71,16 +97,6 @@
       height: 40px;
       display: block;
       transform: translateY(-.25rem);
-    }
-    .callout-box {
-      background: var(--bg-gray);
-      padding: 1rem;
-      border: 1px solid var(--border-color);
-      margin-bottom: 1rem;
-    }
-    .planner-details {
-      color: #999;
-      font-size: 1rem;
     }
   </style>
 

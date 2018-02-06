@@ -26,3 +26,12 @@ img {
 button {
   cursor: pointer;
 }
+
+a {
+  color: #0c8cf1;
+  text-decoration: none;
+
+  &:hover {
+    color: #000;
+  }
+}

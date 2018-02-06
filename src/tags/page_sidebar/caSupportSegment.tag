@@ -28,6 +28,7 @@
     //TODO: Debug this, seems like update() doesn't fire when expected.
     // Could be related to how riot.js handles timing when to rerender components.
     this.handleClick = (e) => {
+      e.preventDefault();
       const id = e.target.dataset.link;
       const students = document.getElementById('list-' + id);
       students.classList.toggle('hide-students');
